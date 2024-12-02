@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DinnerPlan</class>
+ <widget class="QWidget" name="DinnerPlan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>438</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                stop:0 lightgreen, stop:1 darkgreen);
+}
+</string>
+  </property>
+  <widget class="QLabel" name="MealDinner">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Meal Description: </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="AddCalorieDinner">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>250</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background: white; /* Set the background color */
+    color: black;      /* Set the text color */
+    border: 2px solid #56ab2f; /* Add a green border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 5px; /* Padding for better spacing */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="AddMealDinner">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>211</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+    background: white; /* Set the background color */
+    color: black;      /* Set the text color */
+    border: 2px solid #56ab2f; /* Add a green border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 5px; /* Padding for better spacing */
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="AddDinnerButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>300</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add Dinner Meal</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="CalorieDinner">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Meal Calories (in kJ):</string>
+   </property>
+  </widget>
+  <widget class="QTimeEdit" name="AddTimeDinner">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>210</y>
+     <width>211</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TimeDinner">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Meal Time: </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BacktoDietfromDinner">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>350</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Back to Diet Plan</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Dinnertitle">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>40</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; font-weight:700; font-style:italic;&quot;&gt;Dinner Plan&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
